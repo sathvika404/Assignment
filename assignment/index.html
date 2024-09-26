@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <div class="wrapper">
+          <center><h1 class="title">Company Directory Portal </h1></center>
+          <div class="form-box">
+              <center><h2>Employee Registration Form</h2></center>
+                  <div class="details">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="department">Department:</label>
+                    <select id="department" id="department" name="department" required>
+                        <option value="it">IT</option>
+                        <option value="hr">HR</option>
+                        <option value="finance">Finance</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                    <label for="empid">Employee ID:</label>
+                    <input type="number" id="empid" name="empid" required>
+                    <label for="photolink">Profile Picture URL: </label>
+                    <input type="url" id="photolink" name="photolink" required>
+                    <button type="submit">Register Employee</button>
+                </div>
+          </div>
+
+          </form>
+
+    <!------------emply elist----------------------------------->
+    <div id="employeeList">
+        <div class="emplist-box">
+            <center><h2 class="title2">Employee List</h2></center>
+            <div class="empnames">
+                <ol type="1">
+                    <li><a href="https://www.linkedin.com/in/sathvika-reddy-2389822b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Sathvika - sathvikareddy452@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/company/amandhatterwal/">Shraddha - Shraddhakapra@gmail.com</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+    <!-----------emp details------------------------------------------->
+    <div id="employeedetails">
+        <div class="empdetails-box">
+            <center><h2 class="title3">Employee Details</h2></center>
+            <div class="emptable">
+                <table>
+                    <tr>
+                        <th id="atribute">Name</th>
+                        <th id="atribute">Employee ID</th>
+                        <th id="atribute">Department</th>
+                        <th id="atribute">Profile Picture</th>
+                    </tr>
+                    <tr>
+                        <td id="employee">Sathvika</td>
+                        <td id="employee">15432</td>
+                        <td id="employee">HR</td>
+                        <td id="employee"><img src="female.avif" width="70" height="70"></td>
+                    </tr>
+                    <tr>
+                        <td id="employee">Shraddha kapra</td>
+                        <td id="employee">19192</td>
+                        <td id="employee">MARKETING</td>
+                        <td id="employee"><img src="image.png" width="70" height="70"></td>
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-------------map------------------->
+    <section class="map-section">
+        <h2>Company Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d289210.75355478446!2d78.12329432173806!3d17.43421071804026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb93c315877c21%3A0x2769c88dfe665466!2sLEEWAY%2C%202%2F91%2F20%2C%20BP%20Raju%20Marg%2C%20opp.%20Sarath%20City%20Capital%20Mall%2C%20Laxmi%20Cyber%20City%2C%20Whitefields%2C%20Kondapur%2C%20Telangana%20500081!3m2!1d17.4558337!2d78.3656455!5e0!3m2!1sen!2sin!4v1727350018753!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+</div>
+
+
+
+
+
+    </div>
+</body>
+</html>
